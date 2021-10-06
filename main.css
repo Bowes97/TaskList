@@ -1,0 +1,91 @@
+.container123{
+    height: 1000px;
+    width: 1000px;
+    border: 5px solid black;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    background-color: gainsboro;
+}
+.left__side{
+    height: 1000px;
+    width: 500px;
+    border-right: 3px solid black;
+}
+.right__side{
+    height: 1000px;
+    width: 500px;
+    border-left: 3px solid black;
+} 
+p{
+    margin: 30px 0 0 ;
+    font-weight: bold;
+    font-size: 32px;
+    color: red;
+}
+.text{
+    margin: 20px 0 0 ;
+    width: 300px;
+    background-color: gainsboro;
+    border-top: 0ch;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    margin: 20px 0 0;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    background-color: gray;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.form1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.name{
+    width: 100%;
+    margin: 20px 0 0 130px;
+    font-size: 20px;
+    
+}
+.form2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.display{
+    display: none;
+}
+button{
+    border: 0ch;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: red;
+}
+.around{
+    display: flex;
+    justify-content: space-around;
+}
